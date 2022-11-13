@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Gulzar&family=Roboto+Condensed&display=swap');
+
+body{
+    background-color: #cdb4db;
+}
+
+.tamañoLogo{
+    width: 150px;
+}
+
+.ordenTarjetasInicio{
+    
+    margin: 15px;
+    margin-left: 85px;
+    font-family: 'Gulzar', serif;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.estiloTarjetasInfo{
+    background-color: #9362e3;
+    
+}
+.decoracionLink{
+    text-decoration: none;
+    color: #f8f7ff;
+}
+h1{
+    color: #49377b;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.cambioTamañoLogos{
+    width: 35px;
+}
+.arregloAbajo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.puntitos{
+    list-style-type: none;
+    
+}
+.estiloMenu{
+    color: black ;
+}
+.botonBusqueda{
+    margin-left: 85px;
+    
+}
+.colorBotones{
+    color: #b596d4;
+}
+.tabla{
+    margin-left: 15px;
+    
+}
+.formularioTamaño{
+    height: 50%;
+    width: 50%;
+    padding: 20px;
+}
+.tamañoBolsito{
+    width: 80px;
+    height: 40px;
+    color: #49377b;
+}
+
+
