@@ -10,6 +10,13 @@ body{
 
 .ordenTarjetasInicio{
     
+    margin: 10px;
+    margin-left: 65px;
+    font-family: 'Gulzar', serif;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.ordenTarjetasInicioDos{
+    
     margin: 15px;
     margin-left: 85px;
     font-family: 'Gulzar', serif;
