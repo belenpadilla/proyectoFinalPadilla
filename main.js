@@ -178,5 +178,6 @@ vaciarCarrito.addEventListener("click",()=>{
         duration: 3500,
         gravity: "top",
         position:"left",
+        className: "colorAnimacion"
     }).showToast();
 })
