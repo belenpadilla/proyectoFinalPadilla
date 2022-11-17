@@ -180,4 +180,30 @@ vaciarCarrito.addEventListener("click",()=>{
         position:"left",
         className: "colorAnimacion"
     }).showToast();
+});
+
+const comprar = document.getElementById("comprar");
+
+comprar.addEventListener("click", () => {
+    swal.fire( {
+    title: "¡Estas a un paso de terminar tu compra!",
+    text: "¿Desea confirmar su compra?",
+    confirmButtonText: "Aceptar",
+    showCancelButton: true,
+    cancelButtonText: "Cancelar",
+    cancelButtonColor: "#e63946",
+    confirmButtonColor: " #b596d4",
+    icon:"info",
+    }).then((result) => {
+        if (result.isConfirmed){
+            swal.fire({
+                title: "Su compra se realizo con exito! ¡Muchas gracias!",
+                text: "en breve le llegara un mail con la confirmación",
+                icon: "success",
+                confirmButtonText:"aceptar",
+                confirmButtonColor:"#b596d4",
+
+            })
+        }
+    })
 })
