@@ -170,7 +170,7 @@ const calcularCompra = () => {
 
 }
 
-const jsonProductos = JSON.stringify(productos);
+
 
 vaciarCarrito.addEventListener("click",()=>{
     Toastify({
@@ -207,3 +207,12 @@ comprar.addEventListener("click", () => {
         }
     })
 })
+
+
+const apiFake = "https://fakestoreapi.com/products";
+const divPrendas = document.getElementById("divPrendas");
+
+fetch(apiFake)
+    .then(res=>res.json())
+    .then(json=>console.log(json))
+    .catch(error => console.log(error))
