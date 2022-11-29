@@ -210,7 +210,6 @@ comprar.addEventListener("click", () => {
 
 
 const apiFake = "https://fakestoreapi.com/products";
-const divPrendas = document.getElementById("divPrendas");
 
 fetch(apiFake)
     .then(res=>res.json())
